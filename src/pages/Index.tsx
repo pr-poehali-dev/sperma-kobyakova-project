@@ -66,9 +66,9 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+            <a href="http://yadaynebanyi.com/" className="text-2xl font-bold gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity">
               yadaynebanyi.com
-            </div>
+            </a>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection("hero")} className="hover:text-primary transition-colors">
                 Главная
@@ -283,9 +283,9 @@ export default function Index() {
 
       <footer className="py-12 px-4 bg-foreground text-white">
         <div className="container mx-auto text-center">
-          <div className="text-3xl font-bold mb-4 gradient-primary bg-clip-text text-transparent">
+          <a href="http://yadaynebanyi.com/" className="text-3xl font-bold mb-4 gradient-primary bg-clip-text text-transparent hover:opacity-80 transition-opacity inline-block">
             yadaynebanyi.com
-          </div>
+          </a>
           <p className="text-white/70 mb-6">Сперма Кобякова - ТОП 1 напиток России</p>
           <div className="flex justify-center gap-6 mb-6">
             <a href="#" className="hover:text-primary transition-colors">
